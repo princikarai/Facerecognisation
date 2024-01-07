@@ -1,0 +1,60 @@
+/* Default styles for larger screens */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f0f0f0;
+}
+
+canvas {
+  position: absolute;
+}
+
+#videoInput {
+  display: none;
+}
+
+#uploadedVideo {
+  margin-top: 20px;
+}
+
+#uploadButton {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  z-index: 1;
+}
+
+#uploadButton:hover {
+  background-color: #2980b9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Mobile view styles */
+@media (max-width: 600px) {
+  body {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  #uploadButton {
+    top: 10%; /* Adjust button position on smaller screens */
+  }
+
+  #uploadedVideo {
+    margin-top: 10px; /* Adjust margin for the video on smaller screens */
+  }
+}
