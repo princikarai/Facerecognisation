@@ -28,6 +28,6 @@ cd Facerecognisation
 npm run dev
 
 ## Usage
-Upload your own videos by clicking the "Upload Video" button.
-Play/pause the video using the spacebar key or mouse click.
-Faces in the video will be detected and highlighted in real-time.
+1.Upload your own videos by clicking the "Upload Video" button.
+2.Play/pause the video using the spacebar key or mouse click.
+3.Faces in the video will be detected and highlighted in real-time.
